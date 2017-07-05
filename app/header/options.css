@@ -1,0 +1,43 @@
+.l1 {
+    margin-left: 1144px !important;
+}
+
+.l2 {
+    left: 1106px !important;
+}
+
+.handle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.handle:before {
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: '';
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 2px;
+    transition: .4s;
+    position: absolute;
+}
+
+input:checked + span i {
+    background-color: #2ECC71;
+}
+
+input:checked + span i:before {
+    transform: translateX(14px);
+}
+
+.alt1 {
+    margin-left: 1176px;
+}

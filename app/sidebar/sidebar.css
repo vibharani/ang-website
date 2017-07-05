@@ -1,0 +1,318 @@
+html,
+body {
+	height: 100%;
+}
+
+#a1 {
+	width: 19%;
+	background-color: #495469 !important;
+	overflow-y: hidden;
+}
+
+.w3-bar-item {
+	color: white;
+}
+
+.w3-button {
+	color: white;
+	text-decoration: none;
+}
+
+.w3-sidebar {
+	height: 110%;
+}
+
+.w3-button:hover {
+	text-decoration: none;
+}
+
+.a16 {
+	margin-left: -15%;
+}
+
+li {
+	color: darkgray;
+	margin-left: 2px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.nav-icon4 {
+	width: 21px;
+	height: 1px;
+	background-color: white;
+	margin: 6px 0;
+}
+
+.nav-icon5 {
+	width: 21px;
+	height: 1px;
+	background-color: white;
+	margin: 6px 0;
+}
+
+.nav-icon6 {
+	width: 21px;
+	height: 1px;
+	background-color: white;
+	margin: 6px 0;
+}
+
+.nav-icon7 {
+	width: 18px;
+	height: 1px;
+	background-color: white;
+	margin: 6px 0;
+}
+
+#c2 {
+	overflow: hidden;
+	margin-top: -46px;
+	margin-left: 228px;
+}
+
+.c2 {
+	list-style-type: none;
+}
+
+.c3 {
+	list-style-type: none;
+	margin-left: -8%;
+	margin-top: 5%;
+	position: relative;
+}
+
+#d1 {
+	margin-left: 10px;
+	width: 60px;
+}
+
+.w3-bar-block .w3-bar-item {
+	width: 30%;
+}
+
+#d2:hover {
+	color: white;
+}
+
+li:hover {
+	color: white;
+}
+
+.sidebar:hover {
+	background-color: #495469;
+}
+
+.sidebar:hover .preicon {
+	transform: translateX(-2px);
+}
+
+.sidebar:hover {
+	background-color: #434d60;
+}
+
+.sidebar.sel {
+	background-color: #434d60;
+}
+
+.sidebar.sel:hover .preicon {
+	transform: translateX(0px);
+}
+
+.sidebar.active.preicon {
+	transform: translateX(0px);
+}
+
+.fa-angle-right {
+	margin-left: 15%;
+}
+
+.label {
+	display: inline-block !important;
+	width: 30px;
+	margin-left: 30%;
+}
+
+.sidebar:hover #d4 {
+	width: 38px;
+}
+
+.sidebar.sel #d4 {
+	width: 35px;
+}
+
+.d3 {
+	float: right;
+	margin-top: 4%;
+	margin-right: 8%;
+}
+
+#d2 {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 20px;
+}
+
+.c4 {
+	margin-top: 10px;
+}
+
+.down {
+	transform: rotate(90deg);
+}
+
+.sel {
+	color: white;
+}
+
+#sub1 {
+	margin-left: -16px;
+}
+
+.h {
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.subicon {
+	margin-left: -13%;
+}
+
+
+/*rotating the level 2.1,font awesome icon arrow */
+
+.temp1.temp:before {
+	content: "\f107";
+}
+
+.active {
+	color: white;
+}
+
+
+/*rotating the level 2.1 arrow */
+
+.temp3.temp4:before {
+	content: "\f107";
+}
+
+.a16::-webkit-scrollbar-track {
+	background-color: #000000;
+}
+
+.a16::-webkit-scrollbar {
+	width: 6px;
+	background-color: #FF0000;
+}
+
+.a16::-webkit-scrollbar-thumb {
+	background-color: #F5F5F5;
+}
+
+.active1 {
+	color: white;
+}
+
+.active2 {
+	color: white;
+}
+
+.inactive {
+	color: darkgray;
+}
+
+.reduce {
+	width: 5% !important;
+	background-color: gray !important;
+	overflow-x: hidden;
+}
+
+.d1 {
+	padding-top: 100px;
+	display: none !important;
+	margin-left: 10px;
+}
+
+.u11 {
+	visibility: hidden;
+}
+
+.hide1 {
+	height: 0px;
+	position: absolute;
+	margin-left: -21px;
+}
+
+.show1 {
+	margin-left: 30px !important;
+}
+
+.w3-bar-item {
+	color: gray;
+}
+
+.w3-bar-item:hover {
+	color: white;
+}
+
+.display1 {
+	width: 10%;
+	display: none;
+	margin-left: 38px;
+	margin-top: -25px;
+	position: fixed;
+	background-color: #495469;
+}
+
+.rotate1 {
+	transform: rotate(360deg);
+}
+
+.items1 {
+	text-align: left;
+	position: absolute;
+	line-height: 1px;
+}
+
+.d6 {
+	float: left;
+	margin-top: -26px;
+	width: 24px;
+}
+
+.display2 {
+	margin-left: -40px;
+}
+
+.reduce .sidebar:hover .c3 {
+	display: block !important;
+	background-color: #434d60 !important;
+}
+
+#e1,
+#e2,
+#e3,
+#e4,
+#e5,
+#e6:hover {
+	background-color: #495469 !important;
+}
+
+.navbar-inverse {
+	background-color: #495469;
+	height: 85px;
+	width: 102%;
+	margin-top: -6%;
+	margin-left: -1%;
+	z-index: 10000;
+	position: absolute;
+}
+
+.y1 {
+	transform: translate3d(0, 0, 0);
+}
+
+.alt2 {
+	margin-left: 1184px;
+}

@@ -1,0 +1,72 @@
+<div class="w3-sidebar w3-light-grey w3-bar-block" id="a1" style="position:fixed;" ng-controller="MyCtrl" ng-class="{reduce:isClicked,alt1:isClicked4}">
+
+	<div ng-class="{'u11':isClicked}" style="margin-top:-19px;width:100%;cursor:pointer;">
+		<h3 class="w3-bar-item">URBAN</h3>
+	</div>
+
+	<div class="" id="c2" ng-click="testone();" style="cursor:pointer;" ng-class="{'show1':isClicked}">
+		<div class="nav-icon4"></div>
+		<div class="nav-icon5"></div>
+		<div class="nav-icon6"></div>
+		<div class="nav-icon7"></div>
+	</div>
+
+	<div class="a16" style="overflow-y:auto; height:730px;" ng-class="{'hide1':isClicked}">
+		<ul class="c2" style="cursor:pointer">
+			<li ng-repeat="item in items" class="sidebar" id="{{$index}}" ui-sref="{{item.subItems.length > 0 ? '/' : item.name}}" ng-click="showChilds($index);select();" ng-class="{sel:selected1==$index,active:$index==toggle}">
+
+				<i id="d2" class="{{item.icon}} preicon"></i>
+				<span id="d1" ng-class="{d1:isClicked}">{{item.name}}</span>
+				<span id="d4" class="{{item.label}}" ng-class="{d6:isClicked}">{{item.id}}</span>
+				<i class="{{item.d}} d3" ng-class="{down:$index==value,d1:isClicked}"></i>
+
+
+				<!-- SUBMENU ITEMS (BUTTONS,GENERAL,LEVEL 1.1,LEVEL 1.2) -->
+
+
+				<ul class="c3" ng-class="{display1:isClicked}" ng-show="item.active" style="background-color:#495469;">
+
+					<li class="c4" ng-repeat="subItem in item.subItems" id="{{$index}}" ui-sref="{{subItem.sub1.length > 0  ? '/': subItem.name}}" ng-click="select(subItem.name);$event.stopPropagation();isOpen[$index]=!isOpen[$index];isOpenSubmenu[$index]=!isOpenSubmenu[$index];
+                    isOpen2=[];a1=[];" ng-class="{'active':isActive(subItem.name),'display2':isClicked}">
+
+						<span id="d2">{{subItem.name}}</span>
+
+						<i class="{{subItem.icon1}} h" ng-class="{temp1:isOpen[$index],a100:isClicked}"></i>
+
+						<!-- NESTED SUBMENUS : FONT-AWESOME,LEVEL 2.1,LEVEL 2.2-->
+
+
+						<div ng-show="isOpenSubmenu[$index]">
+
+							<ul class="subicon">
+								<li ng-repeat="sub2 in subItem.sub1" style="list-style-type:none" ng-click="$event.stopPropagation();inactive($index);isOpen2[$index]=!isOpen2[$index];a1[$index]=!a1[$index];" ui-sref="{{sub2.sub3.length > 0 ? '/' :sub2.name1}}" ng-class="{active:isClickable==$index,'d9':isClicked}">{{sub2.name1}}
+
+
+									<i class="{{sub2.icon2}} h" ng-class="{'temp3':a1[$index]}"></i>
+
+
+									<!-- INNER SUBMENUS : LEVEL 3.1,LEVEL 3.2-->
+
+
+									<div ng-show="isOpen2[$index]">
+										<ul id="sub1">
+
+											<li ng-repeat="sub11 in sub2.sub3" style="list-style-type:none" ng-class="{'active2':isActive(sub11)}" ng-click="$event.stopPropagation();select(sub11);">{{sub11.name3}}</li>
+										</ul>
+									</div>
+
+
+								</li>
+							</ul>
+
+						</div>
+
+					</li>
+
+				</ul>
+
+			</li>
+		</ul>
+
+	</div>
+</div>

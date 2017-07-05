@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="sidebar/sidebar.js"></script>
+	<script src="header/header.js"></script>
+	<script src="footer/footer.js"></script>
+	<script src="app1/ui.js"></script>
+	<script src="header/chat.js"></script>
+	<script src="header/options.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="footer/footer.css">
+	<link rel="stylesheet" href="header/header.css">
+	<link rel="stylesheet" href="app1/ui.css">
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="sidebar/sidebar.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="header/chat.css">
+	<link rel="stylesheet" href="header/options.css">
+
+</head>
+
+
+
+<div ng-controller="myctrl1">
+
+	<body ng-app="myApp" class=" " ng-controller="myctrl4" style="background-color:#f0f0f0;" ng-class="{'y1':isClicked1}">
+
+		<div ng-include="'app1/app.html'">
+		</div>
+
+
+
+
+	</body>
+</div>
+
+</html>

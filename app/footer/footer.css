@@ -1,0 +1,50 @@
+.navbar nav {
+    margin-left: 63%;
+}
+
+.navbar-default {
+    z-index: 1;
+}
+
+.a4 {
+    margin-left: -56px !important;
+    margin-top: -17px;
+    font-size: small;
+}
+
+#b1 {
+    margin-top: 12px;
+}
+
+#b2 {
+    margin-top: 12px;
+}
+
+#b3 {
+    margin-top: -16px;
+    margin-left: 297px;
+}
+
+.scroll-up {
+    position: relative;
+    margin-left: 230%;
+    margin-top: -71px;
+}
+
+.f3 {
+    margin-left: -239px !important;
+}
+
+.a4:hover {
+    background-color: red;
+}
+
+.nav1:hover {
+   background-color:#f0f0f0;
+}
+.alt5{
+    margin-left: 1% !important;
+}
+.alt6{
+    margin-left: 51px !important;
+}
